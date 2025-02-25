@@ -55,9 +55,12 @@ Download the stego-image 📥
 2️⃣ Decoding (Revealing the Message)
 Upload the stego-image 🕵️
 Click "Decode" 🎭 (Secret message is revealed)
+
 👤Author
 *Chitta Lohitha
 *GitHub:https://github.com/Chitta-Lohitha
+
 📜 License
 This project is licensed under the MIT License.
+
 😊Happy Coading.
