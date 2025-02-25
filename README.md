@@ -1,4 +1,5 @@
 🔐 Secure Data Hiding in Image Using Steganography
+
 📌 Overview
 This project is a Flask-based web application that implements image steganography, allowing users to securely hide and retrieve text messages inside images. The system ensures confidential communication by embedding secret data into images without noticeable changes.
 
@@ -57,10 +58,13 @@ Upload the stego-image 🕵️
 Click "Decode" 🎭 (Secret message is revealed)
 
 👤Author
+
 *Chitta Lohitha
+
 *GitHub:https://github.com/Chitta-Lohitha
 
 📜 License
+
 This project is licensed under the MIT License.
 
 😊Happy Coading.
