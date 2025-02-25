@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steganography App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Steganography App</h1>
+    
+    <h2>Hide a Message</h2>
+    <form action="/hide_message" method="post" enctype="multipart/form-data">
+        <input type="file" name="image" required>
+        <input type="text" name="message" placeholder="Enter secret message" required>
+        <button type="submit">Encode</button>
+    </form>
+
+    <h2>Extract a Message</h2>
+    <form action="/extract_message" method="post" enctype="multipart/form-data">
+        <input type="file" name="image" required>
+        <button type="submit">Decode</button>
+    </form>
+
+</body>
+</html>
